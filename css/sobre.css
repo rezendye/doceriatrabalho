@@ -1,0 +1,167 @@
+
+#juma {
+    color: palevioletred;
+    font-size: 40px;
+}
+
+.maria {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.maria h2{
+ font-size: 25px;
+ 
+
+}
+
+#julia {
+    text-align: center;
+}
+
+#julia h2 {
+    font-size: 40px;
+    color: palevioletred;
+}
+ .maju{
+
+    margin-left: 15px;
+    font-size: 15px;
+
+ }
+ .maju h3{
+
+   text-align: center;
+    font-size: 20px;
+ }
+
+
+ header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 93px;
+    background-color: rgb(255, 255, 255);
+   top: 0%;
+   left: 0%;
+   border-bottom: solid rgb(233, 4, 111);
+   border-bottom-width: 2px;
+   color: rgb(233, 4, 111);
+   transition: top 0.3;
+    
+    
+    
+    
+    
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    
+    
+    
+}
+
+
+.menu li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(233, 4, 111);
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 20px;
+    
+    
+    
+    
+
+}
+
+.menu li a:hover {
+    color: rgb(241, 144, 184);
+    
+}
+
+
+
+
+
+.logo-imagem{
+    
+    display: flex;
+    width: 50px;
+    height: 90px;
+    
+}
+
+.conteiner-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 50px;
+    color: rgb(233, 4, 111);
+}
+
+.logo-texto :hover{
+    color: rgb(241, 144, 184);
+}
+
+
+.foto {
+
+    display: flex;
+    width: 132rem;
+    height: 430px;
+}
+
+.text1{
+    color: rgb(0, 0, 0);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 25px;
+    margin-top: 4rem;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* BARRA DE PESQUISA */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 10px;
+    margin-left: 200px;
+    width: 50vh;
+    
+
+}
+
+#search-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline-color: rgba(0, 0, 0, 0.096);
+}
+
+button {
+    background-color: rgb(233, 4, 111); 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(241, 144, 184); 
+}

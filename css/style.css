@@ -1,0 +1,347 @@
+@charset "UTF-8";
+
+
+
+
+
+body{
+   text-align: center;
+   margin-left: 400px;
+   margin-right: 400px;
+   height: 2000px;
+
+   
+}
+
+
+
+/* CABEÇALHO */
+
+header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 93px;
+    background-color: rgb(255, 255, 255);
+   top: 0%;
+   left: 0%;
+   border-bottom: solid rgb(233, 4, 111);
+   border-bottom-width: 2px;
+   color: rgb(233, 4, 111);
+   transition: top 0.3;
+    
+    
+    
+    
+    
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    
+    
+    
+}
+
+
+.menu li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(233, 4, 111);
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 20px;
+    
+    
+    
+    
+
+}
+
+.menu li a:hover {
+    color: rgb(241, 144, 184);
+    
+}
+
+
+
+
+
+.logo-imagem{
+    
+    display: flex;
+    width: 50px;
+    height: 90px;
+    
+}
+
+.conteiner-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 50px;
+    color: rgb(233, 4, 111);
+}
+
+.logo-texto :hover{
+    color: rgb(241, 144, 184);
+}
+
+
+
+/* BARRA DE PESQUISA */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 10px;
+    margin-left: 200px;
+    width: 50vh;
+    
+
+}
+
+#search-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline-color: rgba(0, 0, 0, 0.096);
+}
+
+button {
+    background-color: rgb(233, 4, 111); 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(241, 144, 184); 
+}
+
+
+/*SLIDE CSS*/
+
+
+section.slider{
+   
+    
+    height: 45vh;
+    padding: 0 ;
+    overflow: hidden;
+    margin-top: 9.9vh;
+    margin-left: -42vh;
+    width: 200vh;
+   
+    
+
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+    margin-top: -4vh;
+    
+}
+
+.slider-content input{
+    display: none;
+    
+    
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    
+    
+    transition: 1s;
+}
+
+.slide-box img{
+    width: 100%;
+    background: no-repeat center center;
+    
+    
+   
+    
+}
+
+
+/*CONFIGURAÇÃO MANUAL*/
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: rgba(233, 4, 111, 0.575);
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: rgba(233, 4, 111, 0.575);
+    background-size: 50%;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+/*IMAGENS INFRA*/
+
+.texto1{
+    font-size: 24.9px;
+    margin-top: 8vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: solid rgb(233, 4, 111);
+   border-bottom-width: 2px;
+
+
+}
+
+.nossaloja, .imagem{
+    margin-top: 0vh;
+        margin-left: -19vh;
+        width: 80vh;
+        margin-top: 5vh;
+        display: flex;
+        
+
+        
+        
+    
+}
+
+
+.texto2{
+    margin-left: 45vh;
+    margin-top: -42vh;
+    font-size: 20px;
+    text-align: justify;
+    
+    
+}
+
+.nossalojac{
+    margin-top: 0vh;
+    text-align: right;
+    
+        margin-left: 38.5vh;
+        width: 80vh;
+        margin-top: 15vh;
+       
+        
+        
+
+        
+        
+    
+}
+.texto2c{
+    margin-left: -30vh;
+    margin-top: -42vh;
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    text-justify: auto;
+    
+    
+    
+}
+
+.maps{
+    margin-right: -20vh;
+    margin-top: 5vh;
+}
+
+#butaosaibamais a{
+    margin-top: 5vh;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#aga1{
+    margin-top: 9vh;
+}
+
+
+/*RODAPE*/
+footer {
+    background-color: rgb(233, 4, 111); 
+    color: #FFFFFF; 
+    padding: 20px 0;
+    width: 200vh;
+    margin-left: -43vh;
+    height: 10vh;
+    border-top: solid rgb(0, 0, 0);
+   border-top-width: 1px;
+   margin-top: 9vh;
+   
+    
+}
+
+
+.redes-sociais a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.menu-rodape ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-rodape ul li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.menu-rodape ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
